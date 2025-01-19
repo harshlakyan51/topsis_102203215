@@ -14,7 +14,7 @@ pip install Topsis-Harsh-102203215
 CLI Usage
 After installation, you can use the package directly from the command line. The general syntax for the CLI is:
 
-topsis <input_file> <weights> <impacts> <output_file>
+topsis <input_file>  <weights>  <impacts>  <output_file>
 
 input_file: The path to a CSV file containing the decision matrix (alternatives x criteria).
 
