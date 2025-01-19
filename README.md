@@ -30,31 +30,6 @@ Example:
 topsis input.csv "1,1,1,1" "+,+,-,+" output.csv
 ```
 
-# Programmatic Usage
-
-You can also use the package programmatically in your Python code. Here's how you can do that:
-
-import numpy as np
-from topsis.102203215 import topsis
-
-data = np.array([
-    [7, 9, 8, 9],
-    [6, 8, 7, 8],
-    [8, 7, 6, 7],
-    [9, 8, 9, 9]
-])
-
-weights = [0.4, 0.3, 0.2, 0.1]
-impacts = ['+', '+', '-', '+']
-
-# Call the topsis function
-rankings, scores = topsis(data, weights, impacts)
-
-# Print the rankings and scores
-print("Rankings:", rankings)
-print("Scores:", scores)
-
-
 # Features
 
 TOPSIS: Perform multi-criteria decision-making using the TOPSIS method.
